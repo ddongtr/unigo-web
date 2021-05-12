@@ -30,14 +30,12 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <TabControl
-        tab1="Thông báo chung"
-        tab2="Thông báo lớp học phần"
-        data1={overall}
-        data2={classes}
-      />
-    </div>
+    <TabControl
+      tab1="Thông báo chung"
+      tab2="Thông báo lớp học phần"
+      data1={overall}
+      data2={classes}
+    />
   );
 };
 

@@ -84,7 +84,7 @@ const ExamSchedule = () => {
                   {row.test_group}
                 </StyledTableCell>
                 <StyledTableCell align="center">
-                  {row.test_grouping}
+                  {row.test_grouping === "false" ? "-" : row.test_grouping}
                 </StyledTableCell>
                 <StyledTableCell align="center">
                   {row.test_schedule}

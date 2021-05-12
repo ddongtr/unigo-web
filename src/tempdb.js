@@ -276,3 +276,65 @@ export const tests = [
     test_schedule: "Ngày: 23/05/2021, Phòng: F101, Giờ: 7h00, Xuất: 2C1",
   },
 ];
+
+export const schedule = [
+  {
+    credit: 2.0,
+    teacher: "Phạm Quang Phương",
+    index: 1,
+    course_code: "1021883.2020.17.11A",
+    course_name: "CĐ CN phần mềm",
+    study_weeks: "23-27;30-38",
+    weekly_schedule: {
+      raw: "Thứ 5,3-5,H305",
+      schedules: [
+        {
+          weekday: 4,
+          room: "H305",
+          study_time: [
+            {
+              time: 5,
+            },
+            {
+              time: 3,
+            },
+            {
+              time: 4,
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    credit: 3.0,
+    teacher: "Nguyễn Thị Kim Loan",
+    index: 2,
+    course_code: "1080491.2020.19.86",
+    course_name: "Cơ học ứng dụng",
+    study_weeks: "23-27;30-37",
+    weekly_schedule: {
+      raw: "Thứ 3,7-10,F207",
+      schedules: [
+        {
+          weekday: 2,
+          room: "F207",
+          study_time: [
+            {
+              time: 7,
+            },
+            {
+              time: 8,
+            },
+            {
+              time: 9,
+            },
+            {
+              time: 10,
+            },
+          ],
+        },
+      ],
+    },
+  },
+];
